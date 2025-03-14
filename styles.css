@@ -2,16 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    --laranja-claro: #583101ff;
+    --branco-envelhecido: #ffedd8ff;
+    --marrom: #e7bc91ff;
+    --leao: #bc8a5fff;
+    --caputino: #a47148ff;
+    --cobre: #8b5e34ff;
+    --marrom-3: #6f4518ff;
+    --marrom-4: #603808ff;
+    --marrom-5: #583101ff;
 }
 
 body {
     font-size: 1rem;
     font-family: 'Montserrat';
+    background-color: #000000;
 }
 
 header {
-    background-color: #ffffff;
+    background-color: rgb(56, 31, 3);
 }
 
 
@@ -19,17 +28,18 @@ section {
     padding-bottom: 5rem;
 }
 
-.nav-img{
+.nav-img {
     width: 10%;
 }
+
 .nav-link {
-    color: #CB6D43;
+    color: #e7bc91ff;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/_.jpeg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -75,6 +85,7 @@ section {
 }
 
 
+
 #tropicalia {
     position: relative;
     padding-top: 5rem;
@@ -103,9 +114,13 @@ h2 {
     color: var(--laranja-claro);
 }
 
-#galeria {
-    background-color: #FAF4F4;
+.texto-principal{
+    color: var(--branco-envelhecido)
+}
 
+#galeria {
+    background-color: #a47148ff;
+    --marrom-4: #603808ff;
 }
 
 .fundo-galeria {
@@ -121,24 +136,26 @@ h2 {
 
 }
 
+
 .formulario {
-    background-color: #ffffff;
+    background-color: #020202;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
     /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    --marrom-4: #603808ff;
+
+    box-shadow: 0 0 10px rgba(19, 18, 18, 0.979);
     /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #8b5e34ff;
     border: none;
     font-weight: bold;
 }
 
-/* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #603808ff;
 }
